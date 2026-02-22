@@ -28,12 +28,12 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Wael Slama | Full Stack Developer (Next.js, NestJS) Tunisia",
     description:
-      "Wael Slama is a Full Stack Developer from Tunisia specializing in Next.js, NestJS, PostgreSQL and AI-powered web applications. View projects, experience and skills.",
-    url: "https://waelslama.com",
+  "Wael Slama is a Full Stack Developer from Tunisia specializing in Next.js, NestJS, PostgreSQL and AI-powered web applications. Explore my work.",
+    url: "https://wael-slama-portfolio.vercel.app",
     siteName: "wael slama- Software Engineer",
     images: [
       {
-        url: "https://waelslama.com/og-image.png",
+        url: "https://wael-slama-portfolio.vercel.app/wael_slama_Banner.png",
         width: 1200,
         height: 630,
         alt: "wael slama- Software Engineer",

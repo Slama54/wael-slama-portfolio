@@ -26,13 +26,13 @@ export const metadata: Metadata = {
   ],
   openGraph: {
     title: "Wael Slama | Full Stack Developer (Next.js, NestJS) Tunisia",
-    description:
-      "Wael Slama is a Full Stack Developer from Tunisia specializing in Next.js, NestJS, PostgreSQL and AI-powered web applications. View projects, experience and skills.",
-    url: "https://waelslama.com",
+   description:
+  "Wael Slama is a Full Stack Developer from Tunisia specializing in Next.js, NestJS, PostgreSQL and AI-powered web applications. Explore my work.",
+    url: "https://wael-slama-portfolio.vercel.app",
     siteName: "wael slama- Software Engineer",
     images: [
       {
-        url: "https://waelslama.com/og-image.png",
+         url: "https://wael-slama-portfolio.vercel.app/wael_slama_Banner.png",
         width: 1200,
         height: 630,
         alt: "wael slama- Software Engineer",
@@ -58,15 +58,15 @@ const websiteSchema = {
   "@context": "https://schema.org",
   "@type": "WebSite",
   name: "Wael Slama Portfolio",
-  url: "https://waelslama.com",
+  url: "https://wael-slama-portfolio.vercel.app",
 };
 const structuredData = {
   "@context": "https://schema.org",
   "@type": "Person",
   name: "Wael Slama",
-  url: "https://waelslama.com",
+  url: "https://wael-slama-portfolio.vercel.app",
   image:
-    "https://media.licdn.com/dms/image/v2/D4D03AQGP5hA9gEBlBg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1677586555880?e=1772668800&v=beta&t=sv2hSAPKdjPJ0Wj2kRAaCuhdhM6WIurEn19x1LSQO40", // add real photo
+    "https://wael-slama-portfolio.vercel.app/profile.jpg",
   jobTitle: "Full Stack Developer",
   description:
     "Full Stack Developer specializing in Next.js, NestJS, PostgreSQL and AI-powered applications.",
