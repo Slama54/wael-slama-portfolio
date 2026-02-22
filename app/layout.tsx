@@ -84,6 +84,16 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+        <head>
+       
+        <meta property="og:title" content="Wael Slama | Full Stack Developer (Next.js, NestJS) Tunisia" />
+        <meta property="og:description" content="Wael Slama is a Full Stack Developer from Tunisia specializing in Next.js, NestJS, PostgreSQL and AI-powered web applications. Explore my work." />
+        <meta property="og:image" content="https://wael-slama-portfolio.vercel.app/wael_slama_Banner.png" />
+        <meta property="og:url" content="https://wael-slama-portfolio.vercel.app" />
+        <meta property="og:type" content="website" />
+        <meta property="og:site_name" content="Wael Slama - Software Engineer" />
+        <meta name="twitter:card" content="summary_large_image" />
+      </head>
       <body className={`${poppins.className} font-sans antialiased`}>
         {children}
         <Analytics />
