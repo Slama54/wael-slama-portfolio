@@ -15,7 +15,7 @@ export function ProfileSidebar({ data = profileData }: ProfileSidebarProps) {
           <div className="absolute inset-0 rounded-3xl bg-gradient-to-br from-accent/20 via-accent/5 to-transparent animate-pulse-slow" />
           <div className="absolute inset-[2px] rounded-3xl bg-secondary overflow-hidden">
             <img
-              src={data.avatar || "/placeholder.svg"}
+              src={"/profile.jpg"}
               alt={data.name}
               className="w-full h-full object-cover"
             />
